@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework9-2Medium</title>
+    </head>
+    <style>
+        .flex-container{
+            display:flex;
+            width: 90vw;
+            justify-content: center;
+            }
+            
+            .flex-items{
+                background-color: blue;
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+                text-align: center;
+                
+            }
+             
+    </style>
+    <body>
+        <p>Build a simple flex container with 10 flex-items and make them all have a blue background and make them evenly spaced out.
+
+            Using JavaScript make every third element have a red background and make the text inside those flex-items be: fizz
+            
+            Hint: Use a for with incrementing indexes to go through all the flex-items. Use the % operator to see if we arrived at an element we want to change.</p>
+            <div class="flex-container">
+                <div class="flex-items"></div>
+                <div class="flex-items"></div>
+                <div class="flex-items">Fizz</div>
+                <div class="flex-items"></div>
+                <div class="flex-items"></div>
+                <div class="flex-items">Fizz</div>
+                <div class="flex-items"></div>
+                <div class="flex-items"></div>
+                <div class="flex-items">Fizz</div>
+                <div class="flex-items"></div>
+                </div>
+                <script>
+                    const flexItems = document.getElementsByClassName("flex-items");
+                    for (let index =0; index < flexItems.length; index++){
+                        if(index % 3 == 2){
+                            flexItems[index].style.backgroundColor = "red" ;
+                        }else{
+                            flexItems[index].style.backgroundColor = "blue";
+                        }}
+                        
+
+
+                </script>
+               
+               
+            
+    </body>
+</html>
