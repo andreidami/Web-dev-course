@@ -1,18 +1,20 @@
 
-const button= document.getElementById("btn")
-button.addEventListener("click",change)
+const button= document.getElementById("btn");
+
 
 
 var clicks = 0;
 function change() {
   clicks += 1;
-   if(clicks==2)
+   if(clicks==1)
   {message ="Click me again!";}
-   else if(clicks >= 6)
-  {button.style.visibility = "hidden";}
+   else if(clicks==2)
+   {message =  "Thank you, goodbye!";}
   
   else
-    {message =  "Thank you, goodbye!";}
-  document.getElementById("btn").innerHTML = message;
-
+  {button.style.visibility = "hidden";}
+  document.getElementById("btn").innerHTML = message
 };
+
+
+
