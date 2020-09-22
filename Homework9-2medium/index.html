@@ -29,24 +29,25 @@
             <div class="flex-container">
                 <div class="flex-items"></div>
                 <div class="flex-items"></div>
-                <div class="flex-items">Fizz</div>
                 <div class="flex-items"></div>
                 <div class="flex-items"></div>
-                <div class="flex-items">Fizz</div>
                 <div class="flex-items"></div>
                 <div class="flex-items"></div>
-                <div class="flex-items">Fizz</div>
+                <div class="flex-items"></div>
+                <div class="flex-items"></div>
+                <div class="flex-items"></div>
                 <div class="flex-items"></div>
                 </div>
                 <script>
                     const flexItems = document.getElementsByClassName("flex-items");
                     for (let index =0; index < flexItems.length; index++){
                         if(index % 3 == 2){
-                            flexItems[index].style.backgroundColor = "red" ;
-                        }else{
-                            flexItems[index].style.backgroundColor = "blue";
+                            flexItems[index].style.backgroundColor = "red";
+                            flexItems[index].innerText = "fizz";
+                       
+        
                         }}
-                        //how to include text in a div with javascript?
+                
                         
 
 
