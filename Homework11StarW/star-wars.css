@@ -1,0 +1,63 @@
+.flex-container {
+    position: absolute;
+    display: flex;
+     width: 100vw;
+    height: 100vh;
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+
+}
+#one {
+    width: 510px;
+    height: 93,5vh;
+    background-color:white;
+    align-items: flex-start;
+    border: solid;
+    border-width: 20px;
+    border-radius: 10%;
+    border-color:#041f33;
+    color:#1b35cc;
+    
+}
+#two {
+    width: 510px;
+    height: 93,5vh;
+    background-color: black;
+    align-items: center;
+    border: solid;
+    border-width: 20px;
+    border-radius: 10%;
+    border-color:#041f33;
+    color:#eb3326;
+    
+}
+#thre {
+    width: 510px;
+    height: 93,5vh;
+    background-color:white;
+    align-items: flex-end;
+    border: solid;
+    border-width: 20px;
+    border-radius: 10%;
+    border-color:#041f33;
+    color: #0c9921;
+
+}
+#picture {
+     width: 260px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}                  
+ 
+
+ 
+    
+
+    
+
