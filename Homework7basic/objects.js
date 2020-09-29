@@ -10,7 +10,7 @@ var animal = {
     }
 
      console.log("before:",animal.gut);
-     animal.eat(["nuts", "leaves",]);
+     animal.eat("nuts");
      console.log("full belly:",animal.gut);
 
 
