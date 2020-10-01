@@ -21,6 +21,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-color:#ffd18c;
     color:#03040a;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, .3);
+    
 }
 
 .profile img {
@@ -30,16 +32,15 @@ body {
 .prg {
     color: #d48e0c;
 }
-.contact {
-    position: absolute; 
-    display: flex; 
-    width: 296px;
-    height: 75px;
-    background-color: #ffd18c; 
-    border: white;
-    border: solid;
-    top: 83%;
-    color:white;
-    align-items: center;
-}
-    
+    .btn {
+        position:absolute;
+        width: 297px;
+        height: 75px;
+        border: white; 
+        color: white;
+        top: 83%;
+        left: 7px;
+        font-size: 30px;
+        background:linear-gradient(to bottom, #f1d194 10%, #ca730e 100%);
+
+    }
