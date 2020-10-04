@@ -1,7 +1,7 @@
 body {
     display: flex;
-     position: absolute;
-     align-items: center; 
+    position: absolute;
+    align-items: center; 
     background-color: #fafbfc;
     top: 15%;
     left: 40%;
@@ -33,7 +33,7 @@ body {
     color: #d48e0c;
 }
     .btn {
-        position:absolute;
+        position: absolute;
         width: 297px;
         height: 75px;
         border: white; 
@@ -42,5 +42,6 @@ body {
         left: 7px;
         font-size: 30px;
         background:linear-gradient(to bottom, #f1d194 10%, #ca730e 100%);
-
+        line-height: 75px;
+        
     }
