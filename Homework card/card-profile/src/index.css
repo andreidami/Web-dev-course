@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    position: absolute;
+    align-items: center; 
+    background-color: #fafbfc;
+    top: 15%;
+    left: 40%;
+    margin: 0%;
+    padding: 0%;
+     text-align: center;   
+        
+  }
+  
+.profile {
+    width: 300px;
+    height: 480px;
+    border: solid;
+    border-width: 5px;
+    background-color:#ffffff;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color:#ffd18c;
+    color:#03040a;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, .3);
+    
+}
+
+.profile img {
+    width: 150px;
+    height: 200px;
+}
+.prg {
+    color: #d48e0c;
+}
+    .btn {
+        position: absolute;
+        width: 297px;
+        height: 75px;
+        border: white; 
+        color: white;
+        top: 83%;
+        left: 7px;
+        font-size: 30px;
+        background:linear-gradient(to bottom, #f1d194 10%, #ca730e 100%);
+        line-height: 75px;
+        
+    }
