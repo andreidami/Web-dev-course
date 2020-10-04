@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework 10 Basic</title>
+    </head>
+    <body>
+        <p>Using setInterval make a div that grows in width each second up until it is the full length of the page.</p>
+        <div id="grow">Growing Div</div>
+        <style>
+            body {
+                color: chartreuse;
+                background-color: #d8b4de; 
+                width: 100vw;
+                height: 100hw;  }
+
+            div {
+                height: 640px;
+                width: 200px;
+                background-color: #6ab8cc;  }  
+
+            p {
+                background-color:#6ab8cc ;
+            }             
+        </style>
+        <script>
+            
+            let w = 100;
+            const growing = setInterval(function () {
+                w = w + 5;
+             if(w>window.innerWidth) {clearInterval(growing)}
+             
+               else document.getElementById("grow").style.width = w + 'px';
+            }, 1000);
+            
+        </script>
+
+
+    </body>
+</html>
