@@ -9,7 +9,9 @@
         <style>
             body {
                 color: chartreuse;
-                background-color: #d8b4de;   }
+                background-color: #d8b4de; 
+                width: 100vw;
+                height: 100hw;  }
 
             div {
                 height: 640px;
@@ -22,11 +24,12 @@
         </style>
         <script>
             
-            var w = 100;
-            var growing = setInterval(function () {
-            if(w>1515) cancelInterval(growing)
-            w = w + 5;
-            document.getElementById("grow").style.width = w + 'px';
+            let w = 100;
+            const growing = setInterval(function () {
+                w = w + 5;
+             if(w>window.innerWidth) {clearInterval(growing)}
+             
+               else document.getElementById("grow").style.width = w + 'px';
             }, 1000);
             
         </script>
