@@ -1,0 +1,46 @@
+body {
+  width:100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.Emperor {
+  height: 200px;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #967e41;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 40px #3d3b35;
+
+
+}
+.info {
+  display: flex;
+}
+
+.picture{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 10px;
+
+}
+
+.description {
+  width: 500px;
+  align-self: center;
+  margin-left: 150px;
+}
+.Date{
+   align-self: center;
+   margin-right: 10px; 
+  margin-bottom: 0px; 
+}
