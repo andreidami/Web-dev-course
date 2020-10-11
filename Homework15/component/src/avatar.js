@@ -4,7 +4,8 @@ const Avatar = (props) => {
     return (
         <div className="Emperor">
             <div className="Info">
-                <img className="picture" src={props.author.pictureUrl} />
+                <img className="picture" alt=
+                "Kings of Rome" src={props.author.pictureUrl} />
                 <div className="name"> {props.author.name} </div>
             </div>
             <div className="descripton">{props.text}</div>

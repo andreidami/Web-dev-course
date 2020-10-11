@@ -7,7 +7,7 @@ import Avatar from "./avatar.js";
 ReactDOM.render(
   <React.StrictMode>
     <Avatar
-    author={{pictureUrl:"https://i.pinimg.com/originals/b3/31/38/b33138d7a0f9db18546f5161b5cb88f7.jpg",
+    author={{pictureUrl:"https://i.pinimg.com/originals/b3/31/38/b33138d7a0f9db18546f5161b5cb88f7.jpg",   
             name:"Antonimus Pius"}}
             text="Animal accusata repudiandae at his, sonet suavitate eos id. Ad partem imperdiet sed, in tritani electram adolescens has. Utroque debitis veritus ad qui, et nec probo autem postulant, nisl iriure at sed. Sed amet verear sapientem ei, ea eum interpretaris concludaturque. Eam ea munere deleniti scaevola, vim et delenit corrumpit, vim errem soluta ex. Eam facer ridens ne, eu mutat choro vivendo vim.
             "
