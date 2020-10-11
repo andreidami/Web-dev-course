@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const About = (props) => (
+const About = (props)  => (
 <section id="about" className="success">
           <div className="container">
             <div className="row">
