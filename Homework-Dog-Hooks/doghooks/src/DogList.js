@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
 
-const DogList = ({ dogs }) => {
+const DogList = ({ filteredDogs }) => {
   return (
     <div>
-      {dogs.map((user, i) => {
-        return <Card key={i} id={dogs[i].id} name={dogs[i].name} />;
+      {filteredDogs.map((dog, i) => {
+        return <Card key={i}  name={dog} />;
       })}
     </div>
   );
