@@ -1,0 +1,20 @@
+
+.first {
+  display: flex;
+  background-color: #badbcd;
+}
+
+.first > div {
+  margin: auto;
+  padding: 20px;
+  font-size: medium;
+  height: 150px;
+  width: 800px;
+  border: solid;
+  border-width: 5px;
+  background-color: #ffffff;
+  font-style: normal;
+  border-color: #ffd18c;
+  color: #03040a;
+  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.3);
+}
